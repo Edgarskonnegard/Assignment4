@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FelsökningInlämning4", "FelsökningInlämning4\FelsökningInlämning4.csproj", "{0995722A-D3B8-490D-BFD0-223E32D91750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0995722A-D3B8-490D-BFD0-223E32D91750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0995722A-D3B8-490D-BFD0-223E32D91750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0995722A-D3B8-490D-BFD0-223E32D91750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0995722A-D3B8-490D-BFD0-223E32D91750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {318F558F-A272-435C-962B-000F35BA66AF}
+	EndGlobalSection
+EndGlobal
