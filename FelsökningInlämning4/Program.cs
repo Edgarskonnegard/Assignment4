@@ -19,7 +19,7 @@ namespace FelsökningInlämning4
                     "5" +
                     "6" +
                     "7: Exit program");
-                int choice;
+                int choice = 0;
                 try
                 {
                     choice = Convert.ToInt32(Console.ReadLine());
@@ -70,11 +70,11 @@ namespace FelsökningInlämning4
                         {
                             for (int j = 1; j <= i; j++)
                             {
-                                // Console.Write kräver ett argument annars blir det kompileringsfel.
-                                Console.Write("");
+                                // Console.Write kräver ett argument annars blir det kompileringsfel. La till "*".
+                                Console.Write("*");
                             }
-                            // Skriver ut en tom rad
-                            Console.WriteLine();
+                            // La till "*" så att den inte skriver en tom rad.
+                            Console.WriteLine("*");
                             i++;
                         }
                         break;
